@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TudoSobreRedes-socket</title>
+    <!--style-->
+    <link rel="stylesheet" href="css/Socket.css">
+</head>
+
+<body>
+    <!--title-->
+    <h2 class="sub-title">O que e Socket:</h2>
+    <!--return button-->
+    <div id="div-return-top">
+        <a href="index.html">Voltar</a>
+    </div>
+    <!--section-->
+    <section class="General-section" id="socket-section">
+        <p class="p-paragraph">
+            Um socket é um ponto de comunicação que permite a troca de dados entre dispositivos em uma rede. Funciona
+            como uma interface entre a camada de aplicação e a camada de transporte do modelo de rede, facilitando a
+            comunicação entre processos em sistemas diferentes ou no mesmo sistema.
+        </p>
+        <h3>Os principais conceitos associados aos sockets incluem:</h3>
+        <h5>1. Endereço IP e Porta</h5>
+        <ul>
+            <li>
+                Cada socket é definido por uma combinação única de endereço IP e número de porta. O endereço IP
+                identifica o dispositivo na rede, enquanto a porta identifica a aplicação específica no dispositivo.
+            </li>
+        </ul>
+        <h5>2. Tipos de Sockets</h5>
+        <ul>
+            <p>Existem diferentes tipos de sockets, como:</p>
+            <li>
+                Sockets de Stream (TCP): Garantem uma conexão confiável, ordenada e livre de erros entre dois processos.
+            </li>
+            <li>
+                Sockets de Datagram (UDP): Oferecem um serviço não confiável e sem conexão, adequado para aplicações que
+                não necessitam de uma entrega garantida dos dados.
+            </li>
+        </ul>
+        <h5>3. Conexão e Comunicação</h5>
+        <ul>
+            <li>
+                Sockets TCP estabelecem uma conexão antes de trocar dados, garantindo que as mensagens sejam entregues
+                na ordem correta. Sockets UDP enviam mensagens sem estabelecer uma conexão, sem garantir a ordem ou
+                entrega dos pacotes.
+            </li>
+        </ul>
+        <h4>Conclusão</h4>
+        <p class="p-paragraph">
+            Em resumo, os sockets são fundamentais para a comunicação em redes de computadores, permitindo que
+            aplicações enviem e recebam dados de forma estruturada e eficiente. Ao utilizar sockets, é possível criar
+            sistemas distribuídos, realizar transferências de dados em tempo real e desenvolver uma ampla gama de
+            serviços de rede que são essenciais para o funcionamento da internet e de redes privadas. Sua flexibilidade
+            e robustez fazem dos sockets uma tecnologia indispensável no desenvolvimento de aplicações de rede.
+        </p>
+    </section>
+    <br>
+    <!--section example-->
+    <section class="General-section" id="example-section">
+        <h4>Exemplo de uso de sockets:</h4>
+        <p class="p-paragraph">
+            O servidor cria um socket, associa-o a um endereço IP e porta, e fica esperando por conexões. O cliente cria
+            um socket e se conecta ao servidor, permitindo a troca de dados entre eles.
+        </p>
+        <img id="img-example" src="img/img.PNG" alt="#">
+        <!--redirects the page-->
+        <a id="id-example" href="client.html">Exemplo De Comunicação Cliente Servidor</a>
+    </section>
+    <!--return button-->
+    <div id="div-return-button">
+        <a href="index.html">Voltar</a>
+    </div>
+    <!--baseboard-->
+    <footer>
+        <p>&copy; 2024 TudoSobreRedes.com Todos os direitos William dias.</p>
+    </footer>
+</body>
+
+</html>

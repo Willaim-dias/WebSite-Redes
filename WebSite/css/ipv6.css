@@ -1,0 +1,87 @@
+/*General*/
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-image: url("../img/imgBack.jpg");
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+/*section*/
+.General-section {
+    padding: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.p-paragraph {
+    text-align: justify;
+}
+
+
+/*return button*/
+#div-return-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#div-return-button > a{
+    background-color: #008000;
+    color: #fff;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#div-return-button > a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#div-return-top {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#div-return-top > a {
+    background-color: #008000;
+    color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#div-return-top a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*baseboard*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
