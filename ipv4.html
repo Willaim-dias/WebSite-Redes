@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TudoSobreRedes-IPv4</title>
+    <link rel="stylesheet" href="css/ipv4.css">
+</head>
+
+<body>
+    <!--title-->
+    <h2 class="sub-title">O que e IPv4:</h2>
+    <!--return button-->
+    <div id="div-return-top">
+        <a href="index.html">Voltar</a>
+    </div>
+    <!--section-->
+    <section class="General-section" id="ipv4-section">
+        <p class="p-paragraph">
+            IPv4 (Internet Protocol version 4) é a quarta versão do Protocolo de Internet (IP), que é o principal
+            protocolo de comunicação usado na camada de rede do modelo OSI para encaminhar pacotes de dados entre
+            dispositivos em uma rede.
+        </p>
+        <h3>Principais aspectos:</h3>
+        <h5>1. Endereçamento</h5>
+        <ul>
+            <li>Formato: Os endereços IPv4 são representados por quatro números decimais separados por pontos, cada um
+                variando de 0 a 255 (por exemplo, 192.168.0.1). Este formato é conhecido como notação decimal pontuada.
+            </li>
+            <li>
+                Comprimento: Um endereço IPv4 tem 32 bits, o que permite aproximadamente 4,3 bilhões de endereços únicos
+                (2^32 endereços).
+            </li>
+        </ul>
+        <h5>2. Classes de Endereços</h5>
+        <p class="p-paragraph">
+            Os endereços IPv4 são divididos em cinco classes principais (A, B, C, D e E), com as três primeiras (A, B, e
+            C) sendo usadas para fins de endereçamento de redes e dispositivos. A divisão é feita da seguinte maneira:
+        </p>
+        <ul>
+            <li>Classe A: 0.0.0.0 a 127.255.255.255</li>
+            <li>Classe B: 128.0.0.0 a 191.255.255.255</li>
+            <li>Classe C: 192.0.0.0 a 223.255.255.255</li>
+            <li>Classe D: 224.0.0.0 a 239.255.255.255 (usada para multicast)</li>
+            <li>Classe E: 240.0.0.0 a 255.255.255.255 (reservada para uso futuro)</li>
+        </ul>
+        <h5>Sub-redes e Máscaras de Sub-rede</h5>
+        <p class="p-paragraph">
+            Para melhor gerenciamento e utilização eficiente dos endereços IP, os endereços IPv4 podem ser divididos em
+            sub-redes. Uma máscara de sub-rede (subnet mask) determina a porção do endereço IP que é usada para a rede e
+            a porção que é usada para identificar dispositivos dentro da rede.
+        </p>
+        <ul>
+            <li>Exemplo de Máscara de Sub-rede: 255.255.255.0</li>
+        </ul>
+        <h5>4. Roteamento</h5>
+        <p class="p-paragraph">
+            O IPv4 é fundamental para o roteamento na internet, que envolve o encaminhamento de pacotes de dados através
+            de diferentes redes até o destino final. Os roteadores usam tabelas de roteamento e protocolos de roteamento
+            para determinar o melhor caminho para os pacotes.
+        </p>
+        <h5>5. Protocolo de Comunicação</h5>
+        <p class="p-paragraph">
+            IPv4 é um protocolo sem conexão, o que significa que não há uma conexão contínua entre o remetente e o
+            receptor. Cada pacote de dados (datagrama) é tratado de forma independente e pode seguir rotas diferentes
+            para chegar ao destino.
+        </p>
+        <h5>6. Limitações e Transição para IPv6</h5>
+        <p class="p-paragraph">
+            Devido ao esgotamento dos endereços IPv4 disponíveis, a transição para IPv6 é necessária. IPv6 usa endereços
+            de 128 bits, oferecendo um número significativamente maior de endereços IP (2^128 endereços), o que resolve
+            o problema de escassez.
+        </p>
+        <hr>
+        <h4>Conclusão</h4>
+        <p class="p-paragraph">
+            Em resumo, o IPv4 é um protocolo de comunicação essencial que permite a identificação e a localização de
+            dispositivos em redes de computadores, sendo um pilar fundamental do funcionamento da Internet desde os seus
+            primórdios.
+        </p>
+    </section>
+    <!--return button-->
+    <div id="div-return-button">
+        <a href="index.html">Voltar</a>
+    </div>
+    <!--baseboard-->
+    <footer>
+        <p>&copy; 2024 TudoSobreRedes.com Todos os direitos William dias.</p>
+    </footer>
+</body>
+
+</html>
